@@ -114,7 +114,7 @@ npm run dev
 
 ### 🏠 Home Page
 
-* Discover Maharashtra's heritage with immersive UI
+* Discover Maharashtra's heritage with immersive UI (output_images/home.png)
 
 ### 🧭 Plan Trip
 
