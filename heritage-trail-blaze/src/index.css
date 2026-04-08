@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 197 84% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 197 84% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 197 84% 10%;
+    --primary: 197 89% 22%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 120 17% 49%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 197 84% 10%;
+    --accent: 84 61% 51%;
+    --accent-foreground: 197 84% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 197 89% 22%;
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-murky-teal;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold text-murky-teal;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-br from-murky-teal via-blue-lagoon to-pastel-green;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:transform hover:-translate-y-1;
+  }
+
+  .nav-link {
+    @apply text-murky-teal hover:text-blue-lagoon transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-blue-lagoon text-white hover:bg-blue-lagoon/90 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-pastel-green text-white hover:bg-pastel-green/90 transition-colors duration-200;
+  }
+
+  .section-padding {
+    @apply py-16 px-4 md:px-8 lg:px-12;
+  }
+
+  .card-gradient {
+    @apply bg-gradient-to-br from-blustery-blue to-white backdrop-blur-sm;
+  }
+
+  .city-card {
+    @apply transition-all duration-300 hover:shadow-xl;
+  }
+
+  .city-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .heritage-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-murky-teal to-blue-lagoon;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-gray-flash text-blue-mystic;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold;
+  }
+
+  .city-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .city-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+
+  .discover-button {
+    transition: all 0.3s ease;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

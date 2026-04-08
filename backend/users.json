@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Arya Manve",
+      "email": "arya.manve@example.com",
+      "password": "securepass123"
+    },
+    {
+      "name": "Rohit Sharma",
+      "email": "rohit.sharma@example.com",
+      "password": "mystrongpassword"
+    },
+    {
+      "name": "Sneha Kulkarni",
+      "email": "sneha.kulkarni@example.com",
+      "password": "kulkarni789"
+    },
+    {
+      "name": "Aditya Deshmukh",
+      "email": "aditya.deshmukh@example.com",
+      "password": "pass4567"
+    },
+    {
+      "name": "Meera Joshi",
+      "email": "meera.joshi@example.com",
+      "password": "meerapass12"
+    }
+  ]
+  
