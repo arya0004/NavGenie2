@@ -120,6 +120,7 @@ npm run dev
 ### 🧭 Plan Trip
 
 * Input mood, budget, and preferences to generate itineraries
+![Plan trip](output_images/plan.png)
 
 ### 🗺️ Heritage Map
 
@@ -128,6 +129,7 @@ npm run dev
 ### 📱 Social Feed
 
 * Share and explore travel experiences
+[Social Feed](output_images/socials.png)
 
 ---
 
