@@ -125,11 +125,12 @@ npm run dev
 ### 🗺️ Heritage Map
 
 * Interactive regional map with detailed insights
+![Map](output_images/map.png)
 
 ### 📱 Social Feed
 
 * Share and explore travel experiences
-[Social Feed](output_images/socials.png)
+![Social Feed](output_images/socials.png)
 
 ---
 
